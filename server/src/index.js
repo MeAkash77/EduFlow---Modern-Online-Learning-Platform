@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 // Configure CORS for deployment
 const clientUrl = process.env.CLIENT_URL || 'http://localhost:5173';
 app.use(cors({
-  origin: [clientUrl, 'https://eduflow.onrender.com'],
+  origin: [clientUrl, 'https://edu-flow-modern-online-learning-pla.vercel.app'],
   credentials: true
 }));
 

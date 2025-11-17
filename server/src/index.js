@@ -33,9 +33,9 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
 // Configure CORS for deployment
-const clientUrl = process.env.CLIENT_URL || 'http://localhost:5173';
+const clientUrl = process.env.CLIENT_URL || 'https://edu-flow-modern-online-learning-pla.vercel.app';
 app.use(cors({
-  origin: [clientUrl, 'https://edu-flow-modern-online-learning-pla.vercel.app'],
+  origin: [clientUrl, 'https://edu-flow-modern-online-learning-pla.vercel.app','https://edu-flow-modern-online-learning-pla-gilt.vercel.app'],
   credentials: true
 }));
 

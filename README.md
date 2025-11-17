@@ -97,7 +97,7 @@ EduFlow is a comprehensive full-stack e-learning platform built with the MERN st
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nveed-gung/eduflow.git
+   git clone https://github.com/MeAkash77/EduFlow---Modern-Online-Learning-Platform.git
    cd eduflow
    ```
 
